@@ -10,4 +10,4 @@ bin/testNode: testNode.cpp Node.h
 	g++ -o bin/testNode testNode.cpp
 
 clean:
-	rm -rf *.o *.gch *.pch bin
+	rm -rf *.o *.gch *.pch bin 
