@@ -9,5 +9,10 @@ bin/testNode: testNode.cpp Node.h
 	mkdir -p bin
 	g++ -o bin/testNode testNode.cpp
 
+bin/testListLinked: testListLinked.cpp ListLinked.h List.h Node.h
+	mkdir -p bin
+	g++ -o bin/testListLinked testListLinked.cpp
+
+>>>>>>> f200b3e (PRA_2627_P1)
 clean:
 	rm -rf *.o *.gch *.pch bin 
